@@ -1,0 +1,35 @@
+#header {
+  height: 100vh;
+  background-color: var(--darkGreen);
+
+}
+
+#header__container{
+    background-image: url('../assets/headerBackground.svg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+#container__title{
+    font-size: 165px;
+    text-transform: uppercase;
+    font-family: var(--deacon-blk);
+    text-align: center;
+    margin: 0;
+    position: relative;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#container__title::after{
+    content: 'the future';
+    position: absolute;
+    top: 130px;
+    left: 0;
+    transform: translateX(47%);
+    color: #55dd4a;
+}

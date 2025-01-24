@@ -1,0 +1,62 @@
+@import "./nav.css";
+@import "./header.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Color */
+  --darkGreen: #122315;
+
+  --deacon-blk: Deacon-Black, sans-serif;
+  --deacon-bold: Deacon-Bold, sans-serif;
+  --deacon-med: Deacon-Medium, sans-serif;
+  --deacon-ligh: Deacon-Light, sans-serif;
+
+  --graphik-Black: Graphik-Black, sans-serif;
+  --graphik-Bold: Graphik-Bold, sans-serif;
+  --graphik-Medium: Graphik-Medium, sans-serif;
+  --graphik-Regular: Graphik-Regular, sans-serif;
+}
+
+@font-face {
+  font-family: "Deacon-Black";
+  src: url("../font/DeaconTest-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Deacon-Bold";
+  src: url("../font/DeaconTest-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Deacon-Medium";
+  src: url("../font/DeaconTest-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Deacon-Light";
+  src: url("../font/DeaconTest-LightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik-Black";
+  src: url("../font/Graphik-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik-Bold";
+  src: url("../font/Graphik-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik-Medium";
+  src: url("../font/Graphik-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("../font/Graphik-Regular.woff2") format("woff2");
+}
