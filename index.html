@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KIKIN</title>
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="icon" href="./assets/logoPage.jpg">
   </head>
   <body>
     <nav id="nav">
-      <div id="nav__container">
-        <a href="" id="linkHome"
-          ><img src="./assets/mainLogo.svg" alt="" id="primary-logo"
-        /></a>
+      <div id="nav__wrapper">
+        <div id="containerMobAdap">
+          <a href="" id="linkHome"
+            ><img src="./assets/mainLogo.svg" alt="" id="primary-logo"
+          /></a>
+
+          <button id="burgerButton">
+            <span class="burgerButton-line"></span>
+          </button>
+        </div>
 
         <ul id="navbar-list">
           <li class="list-item"><a href="">how it works</a></li>
@@ -28,8 +35,15 @@
     </nav>
 
     <header id="header">
-      <div id="header__container">
-        <h1 id="container__title">financing</h1>
+      <div id="header__content">
+        <h1 id="container__title">financing <br /><span>the future</span></h1>
+        <p>
+          Pay suppliers faster, manage invoices, and extend cash for longer. Get
+          access to funding without giving up equity, so that you can focus on
+          growing your company.
+        </p>
+        <button>get funding</button>
+        <img src="./assets/headerBackground.svg" alt="" id="imageContent" />
       </div>
     </header>
   </body>

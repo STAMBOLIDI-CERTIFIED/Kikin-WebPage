@@ -1,35 +1,105 @@
 #header {
-  height: 100vh;
+  height: 100%;
   background-color: var(--darkGreen);
-
+  padding-top: 50px;
+  position: relative;
 }
 
-#header__container{
-    background-image: url('../assets/headerBackground.svg');
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: bottom;
-    background-size: contain;
+#header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
 }
 
-#container__title{
-    font-size: 165px;
-    text-transform: uppercase;
-    font-family: var(--deacon-blk);
-    text-align: center;
-    margin: 0;
-    position: relative;
-    color: white;
-    margin-bottom: 50px;
+#header__content > p {
+  width: 34.375vw;
+  text-align: center;
+  font-family: var(--graphik-Regular);
+  color: white;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  z-index: 1;
 }
 
-#container__title::after{
-    content: 'the future';
-    position: absolute;
-    top: 130px;
-    left: 0;
-    transform: translateX(47%);
-    color: #55dd4a;
+#header__content > button {
+  width: 160px;
+  padding: 20px 24px;
+  color: black;
+  background-color: #55dd4a;
+  border-radius: 10px;
+  border: none;
+  font-family: var(--graphik-Medium);
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#container__title {
+  font-size: 10vw;
+  text-transform: uppercase;
+  font-family: var(--deacon-blk);
+  text-align: center;
+  position: relative;
+  color: white;
+  line-height: 0.8;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#container__title > span {
+  color: #55dd4a;
+}
+
+#imageContent {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-top: -20vh;
+  z-index: 0;
+}
+
+@media (max-width: 1000px) {
+  #header__content > p {
+    width: 46.6vw;
+  }
+
+  #imageContent {
+    margin-top: -10vh;
+  }
+}
+
+@media (max-width: 600px) {
+    #container__title {
+      font-size: 13vw;
+    }
+  
+    #header__content > p {
+      width: 80vw;
+    }
+  
+    #imageContent {
+      margin-top: -2vh;
+      object-position: center;
+    
+    }
+  }
+
+@media (max-width: 500px) {
+  #container__title {
+    font-size: 13vw;
+  }
+
+  #header__content > p {
+    width: 80vw;
+  }
+
+  #imageContent {
+    margin-top: -2vh;
+    
+  }
 }

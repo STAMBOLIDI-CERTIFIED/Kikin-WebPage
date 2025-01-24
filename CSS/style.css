@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,p,a{
+    margin: 0;
+    padding: 0;
+}
+
 :root {
   /* Color */
   --darkGreen: #122315;
