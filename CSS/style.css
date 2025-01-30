@@ -1,5 +1,7 @@
 @import "./nav.css";
 @import "./header.css";
+@import "./main.css";
+
 
 * {
   margin: 0;
@@ -19,6 +21,9 @@ h1,h2,h3,h4,p,a{
 :root {
   /* Color */
   --darkGreen: #122315;
+  --white: #f3ede4;
+  --green: #122315;
+  --neon-100: #55dd4a;
 
   --deacon-blk: Deacon-Black, sans-serif;
   --deacon-bold: Deacon-Bold, sans-serif;

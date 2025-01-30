@@ -1,0 +1,90 @@
+#main-section1{
+  height: 100vh;
+  margin-top: 340px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  position: relative;
+}
+
+#opacityNoneBlock{
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.opacityImg{
+  max-width: 168px;
+  opacity: 0;
+}
+
+.opacityImg1{
+  position: absolute;
+  top: 150px;
+}
+
+.opacityImg2{
+  position: absolute;
+  left: 85%;
+  top: -50px;
+}
+
+.opacityImg3{
+  position: absolute;
+  left: 90%;
+  top: 350px;
+}
+
+.opacityImg4{
+  position: absolute;
+  left: 15%;
+  top: 580px;
+}
+
+.opacityImg5{
+  position: absolute;
+  left: 80%;
+  top: 580px;
+}
+
+.show{
+  opacity: 1;
+  transition: opacity 4s;
+}
+
+#section1-title{
+  max-width: 950px;
+  font-family: var(--deacon-blk);
+  color: var(--green);
+  text-align: center;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  width: auto;
+  font-size: 7vw;
+  font-weight: 900;
+  line-height: .8em;
+}
+
+#section1-text{
+  width: 685px;
+  font-size: 16px;
+  font-family: var(--graphik-Regular);
+  text-align: center;
+}
+
+#setction-buttonGet{
+  width: 160px;
+  padding: 20px 24px;
+  color: black;
+  background-color: #55dd4a;
+  border-radius: 10px;
+  border: none;
+  font-family: var(--graphik-Medium);
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 1;
+}
